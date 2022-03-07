@@ -1,0 +1,90 @@
+.links{
+    text-align: right;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    font-size: 12px;
+}
+
+.links a{
+    margin-left: 15px;
+}
+
+.naver_logo{
+    margin-left: 370px;
+}
+
+
+/* 검색바 FLEX */
+    .search_line{
+        display: flex;
+    }
+
+    .search_box{
+        margin-top: 11px;
+        margin-left: 10px;
+        border: 2px solid rgb(23, 190, 23);
+    }
+
+    .search_box input{
+        padding: 0;
+        height: 47px;
+        width: 500px;
+        border: none;
+        outline: none;
+        color: gray;
+    }
+
+    .search_box button{
+        padding: 0;
+        height: 51px;
+        width: 51px;
+        border: none;
+        outline: none;
+        background-color: rgb(23, 190, 23);
+        color: white;
+        font-size: 13px;
+    }
+
+
+/* 네비게이션 FLEX */
+    .nav_line{
+        display: flex;
+        padding: 10px;
+        margin-top: 50px;
+        border: 1px solid rgb(221, 221, 221);
+        border-right: none;
+        border-left: none;
+    }
+
+    .nav_green{
+        display: flex;
+        color: rgb(17, 201, 17);
+        font-size: 16px;
+        margin-left: 370px;
+        text-decoration: solid;
+        font-weight: bold;
+    }
+
+    .nav_green div{
+        margin: 6px;
+    }
+
+    .nav_gray{
+        display: flex;
+        color: black;
+        font-size: 16px;
+        text-decoration: solid;
+        font-weight: bold;
+    }
+
+    .nav_gray div{
+        margin: 6px;
+    }
+
+    .nav_more{
+        margin: 6px;
+        color: gray;
+        font-size: 14px;
+        text-decoration: solid;
+    }

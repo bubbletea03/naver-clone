@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    margin: auto;
+    background-color: white;
+    height: 300px;
+}
+
+main{
+    background-color: rgb(197, 197, 197);
+    height: 700px;
+    margin: 50px;
+}
+
+footer{
+    background-color: gray;
+    height: 300px;
+}
